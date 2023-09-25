@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 126px;
+    background: transparent linear-gradient(180deg, #A8C7F6 0%, #97B7E678 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+}
+h2{color: #7189AD; font-size: 70px;}
+p{font-size: 40px;}
+a{color: #7189AD; text-decoration: none;}
+a:hover{color: white;}
+
+/* ------LOGO------*/
+.logo{
+    color: white;
+    font-size: 35px;
+    width: 40%;
+}
+.top-logo{
+    padding-top: 21px;
+    padding-left: 57px;
+}
+.bottom-logo{
+    padding-left: 123px;
+}
+
+/*------MENU------*/
+.menu{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    gap: 80px;
+    margin-right: 72px;
+    color: #7189AD;
+    font-size: 18px;
+}
+.home, .chi-siamo, .progetti, .contatti, .lingua{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.home:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.chi-siamo:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.progetti:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.contatti:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.lingua:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.mod-notte{
+    display: flex;
+    align-items: center;
+}
+.menu button{
+    background: transparent;
+    border: none;
+}
+.fa-moon{
+    color: #7189AD;
+    font-size: 20px;
+}
+
+body.dark{
+    background: #313840;
+    color: #e8f2fc;
+    transition: 0.25s ease background-color;
+}
+body.dark .menu a{
+    color: white;
+}
+
+.menu.fa-sun{
+    color: #e8f2fc;
+}
+.menu1050{
+    display: none;
+    
+}
+/*-------PAGINA1-------*/
+.pag1{
+    height: 1000px;
+}
+.main-pag1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+#left-pag1{
+    display: flex;
+    flex-direction: column;
+}
+.top-left-p1{
+    height: 148px;
+    
+}
+.bottom-left-p1{
+    margin-left: 1px;
+    margin-top: 50px;
+}
+.right-pag1{
+    width: 630px;
+    aspect-ratio: 1;
+    border: 1px solid black;
+
+}
+
+/*-------PAGINA2-------*/
+.pag2{
+    height: 800px;
+    margin: 0px 100px;
+}
+.top-pag2{
+    display: flex;
+    justify-content: space-between;
+}
+.left-top-pag2{
+    margin-top: 100px;
+}
+.right-top-pag2{
+    width: 300px;
+    height: 300px;
+    background-color: #7189AD;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.bottom-pag2{
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-left-pag2{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 45%;
+    height: 33%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+.nome-skill{
+    width: 30%;
+}
+.barra-skill{
+    width: 70%;
+    height: 40px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.capacita-skill{
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    height: 28px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+ .prima{
+    width: 60%;
+}
+.seconda{
+    width: 10%;
+}
+.terza{
+    width: 20%;
+}
+.quarta{
+    width: 45%;
+}
+.quinta{
+    width: 90%;
+}
+.sesta{
+    width: 80%;
+}
+.bottom-right-pag2{
+    width: 150px;
+    height: 50px;
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    align-self: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.bottom-right-pag2:hover{
+    background: rgb(113,137,173);
+    background: linear-gradient(90deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+}
+.img3{
+    height: 300px;
+    
+    background: rgb(113,137,173);
+}
+/*------PAGINA3------*/
+.pag3{
+    height: 1800px;
+}
+.top-pag3{
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+.cards-top{
+    padding-top: 150px;
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+.nome-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.button-card{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.cards-bottom{
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+/*-------PAGINA4--------*/
+.pag4{
+    height: 900px;
+    background: rgb(142,171,215);
+background: linear-gradient(338deg, rgba(142,171,215,1) 0%, rgba(220,234,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pag4 h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.bottom-pag4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.bottom-pag4 h3{
+    font-size: 30px;
+    color: #6e88ad;
+    
+}
+.bottom-pag4 p{
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+@media (max-width:1200px) {
+    #menu{
+        gap: 50px;
+    }
+    h2{
+        font-size:60px;
+    }
+    p{
+        font-size: 30px;
+    }
+    #right-pag1{
+        width: 500px;
+        
+    }
+}
+
+@media (max-width:1100px) {
+    #menu{
+        gap: 30px;
+    }
+    #cards-top{
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    #card-center{
+        width: 100%;
+    }
+    #left-pag1 h2{
+        width: 40%;
+        flex-wrap: wrap;
+        
+    }
+    #left-pag1 p{
+        width: 40%;
+        padding-top: 50px;
+    }
+    #cards-bottom{
+        width: 70%;
+    }
+}
+@media (max-width: 950px) {
+  #menu{
+    gap: 20px;
+  }
+}
+@media (max-width: 850px) {
+    #menu{
+      gap: 10px;
+    }
+  }
+@media (max-width:810px) {
+    #menu{
+        gap: 5px;
+    }
+    #left-top-pag2 p{
+        font-size: 20px;
+    }
+    #right-top-pag2{
+        width: 200px;
+        height: 200px;
+    }
+    #bottom-left-pag2{
+        width: 100%;
+    }
+    #bottom-right-pag2{
+        margin: auto;
+    }
+}@media (max-width: 768px) {
+  #menu {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6e88ad;
+    width: 100%;
+    height: 236px;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+  }
+  .menu div{
+    overflow: hidden;
+  }
+  #menu div{
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+  #menu a{
+    color: white;
+  }
+  #menu button{
+    display: none;
+  }
+  .menu1050{
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    height: 100vh;
+    border-bottom: 1px solid #444;
+    
+  }
+  .menu-open #menu{
+    height: 236px;
+    padding: 3%;
+ }
+ .mod-notte{
+    display: none;
+ }
+ h2{
+    font-size: 40px;
+ }
+ #left-pag1 p{
+    width: 40%;
+    padding-top: 0px;
+}
+#skill{
+    width: 100%;
+}
+#bottom-right-pag2{
+   margin-top: 200px;
+}
+#cards-top{
+   display: flex;
+   flex-direction: column;
+}
+#cards-bottom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+#pag4{
+    margin-top: 800px;
+}
+}
+.ancor-pag1, .ancor-pag2, .ancor-pag3 {
+    height: 80px;
+    
+}
+
+ 
